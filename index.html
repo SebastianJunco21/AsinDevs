@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AsinDevs</title>
+    <link rel="icon" href="Images/Logo.svg">
+    
+    <link rel="stylesheet" href="Styles/Menu.css">
+    <link rel="stylesheet" href="Styles/inicio.css">
+    <link rel="stylesheet" href="Styles/sobreNosotros.css">
+    <link rel="stylesheet" href="Styles/caracteristicas.css">
+    <link rel="stylesheet" href="Styles/portafolio.css">
+    <link rel="stylesheet" href="Styles/acercaDe.css">
+    <script src="JavaScripts/Index.js"></script>
+
+    <link rel="stylesheet" href="Styles/bootstrap.min.css">
+    
+    <script src="JavaScripts/jquery-3.4.1.min.js"></script>
+    <script src="JavaScripts/popper.min.js"></script>
+    <script src="JavaScripts/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul class="menu-md-lg">
+            <h1><a class="linkMenu" href="#inicioMenu">AsinDevs</a></h1>
+            <li onclick="cambioContenido('Inicio')" id="Inicio_md_lg">
+                <a class="linkMenu" href="#inicioMenu">Inicio</a>
+                <span class="mantenerSpan-md-lg"></span>
+            </li>
+            <li onclick="cambioContenido('SobreNosotros')" id="SobreNosotros_md_lg">
+                <a class="linkMenu" href="#sobreNosotrosMenu">Sobre nosotros</a>
+                <span></span>
+            </li>
+            <li onclick="cambioContenido('Caracteristicas')" id="Caracteristicas_md_lg">
+                <a class="linkMenu" href="#caracteristicasMenu">Caracteristicas</a>
+                <span></span>
+            </li>
+            <li onclick="cambioContenido('Portafolio')" id="Portafolio_md_lg">
+                <a class="linkMenu" href="#portafolioMenu">Portafolio</a>
+                <span></span>
+            </li>
+        </ul>
+
+        <div class="divMenu-xs-sm">
+            <h1 class="tituloMenu-xs-sm"><a class="linkMenu" href="#inicioMenu">AsinDevs</a></h1>
+            <div class="btnMenu-xs-sm" id="btnMenu_xs_sm">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-xs-sm | navbar-nav | hiddenMenu-xs-sm | posisionarCaja" id="menu_xs_sm">
+                <li onclick="cambioContenido('Inicio')" id="Inicio_xs_sm">
+                    <a class="linkMenu" href="#inicioMenu">Inicio</a>
+                    <span class="mantenerSpan-md-lg"></span>
+                </li>
+                <li onclick="cambioContenido('SobreNosotros')" id="SobreNosotros_xs_sm">
+                    <a class="linkMenu" href="#sobreNosotrosMenu">Sobre nosotros</a>
+                    <span></span>
+                </li>
+                <li onclick="cambioContenido('Caracteristicas')" id="Caracteristicas_xs_sm">
+                    <a class="linkMenu" href="#caracteristicasMenu">Caracteristicas</a>
+                    <span></span>
+                </li>
+                <li onclick="cambioContenido('Portafolio')" id="Portafolio_xs_sm">
+                    <a class="linkMenu" href="#portafolioMenu">Portafolio</a>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="limpiarfix"></div>
+    <div class="divisionSeccion | scrollMenuInicio" id="inicioMenu"></div>
+
+
+    <section>
+        <div class="divInicio">
+            <img src="Images/programacion.png" alt="Img programación">
+
+            <div class="divTextoInicio">
+                <p><strong>Desarrollo a la medida</strong></p>
+                <p class="verMas"><a class="linkMenu" href="#sobreNosotrosMenu">Ver más</a></p>
+            </div>
+        </div>
+
+        <div class="divisionSeccion | scrollMenu" id="sobreNosotrosMenu"></div>
+
+        <div class="divSobreNoso">
+            <h2>&lt; &nbsp; Sobre nosotros &nbsp; /&gt;</h2>
+            <br>
+
+			<div class="divPadreCuerpoFleha_Impar">
+				<div class="divHijoCuerpoFleha_Impar">
+					<p>
+						<strong>Objetivo: </strong>
+						Nuestro principal objetivo es diseñar e implementar con responsabilidad todo tipo de 
+                        aplicasiones web y moviles a la medida siendo amigable con el usuario y teniendo los 
+                        más altos estandares de seguridad.
+					</p>
+				</div>
+				<div class="flechaPuntaDerecha">
+				</div>
+				<div class="imgDerecha">
+					<img src="Images/Objetivo.png" alt="Objetivo">
+				</div>
+			</div>
+
+			<div class="divPadreCuerpoFleha_Par">
+				<div class="imgIzquierda">
+					<img src="Images/Mision.png" alt="Mision">
+				</div>
+				<div class="flechaPuntaIzquierda">
+				</div>
+				<div class="divHijoCuerpoFleha_Par">
+					<p>
+						<strong>Misión: </strong>
+						Nos apacionamos por ofrecer a nuestros clientes y sus inversiones, la mayor protección, 
+						a travéz del buen desarrollo de las aplicasiones web y moviles, mostrando siempre la 
+						mejor actitud y comunicación con nuestros clientes.
+					</p>
+				</div>
+			</div>
+            
+			<div class="divPadreCuerpoFleha_Impar">
+				<div class="divHijoCuerpoFleha_Impar">
+					<p>
+						<strong>Visión: </strong>
+						Evolucionar al igual que la tecnologia, teniendo en cuenta siempre las mejores practicas,
+						y trabajando siempre con tecnologia de punta, para que brindar la mayor confianza y seguridad
+						a nuestros clientes.
+					</p>
+				</div>
+				<div class="flechaPuntaDerecha">
+				</div>
+				<div class="imgDerecha">
+					<img src="Images/Vision.png" alt="Vision">
+				</div>
+			</div>      
+        </div>
+
+        <div class="divisionSeccion | scrollMenu" id="caracteristicasMenu"></div>
+
+        <div class="divCaracte">
+            <h2>&lt; &nbsp; Caracteristicas &nbsp; /&gt;</h2>
+
+            <div class="conteInfoCarac">
+                <div class="">
+                    <p>
+                        El desarrollo y la implementacion de nuestras soluciones web y 
+                        moviles son realizadas mediante la tecnoloia de JavaScript con 
+                        sus diferentes framework y librerias. Debido a que estas tegnologias 
+                        funcionan de manera nativa con el navegador, el rendimiento que 
+                        se puede obtener en la aplicasión es mucho mayor comparado con 
+                        otras tecnologias que existen en el mercado.
+                    </p>
+                </div>
+    
+                <div class="divImgCarac">
+                    <img src="Images/HTML5.PNG" title="HTML5" alt="HTML5">
+                    <img src="Images/CSS3.PNG" title="CSS3" alt="CSS3">
+                    <img src="Images/Bootstrap.png" title="Bootstrap" alt="Bootstrap">
+                    <img src="Images/JavaScript.png" title="JavaScript" alt="JavaScript">
+                    <img src="Images/ReactJS.PNG" title="React JS" alt="React JS">
+                    <img src="Images/NodeJS.PNG" title="Node JS" alt="Node JS">
+                </div>
+            </div>
+        </div>
+
+        <div class="divisionSeccion | scrollMenu" id="portafolioMenu"></div>
+
+        <div class="divPortafo | divisionSeccion">
+            <h2>&lt; &nbsp; Portafolio &nbsp; /&gt;</h2>
+
+            <div class="conteProduct">
+                <div class="divImage">
+                    
+                    <img src="Images/educacion.png" alt="Educacion">
+                    
+                </div>
+                <div class="divSubInfo" id="divSubInfo">
+                    <div class="subInfoImage" id="subInfoImage">
+                        <h3>UniAdmin</h3>
+                        <a href="#">En desarrollo</a>
+                    </div>
+                </div>
+                
+                <div class="infoProduct">
+                    <h3>Universidad</h3>
+                    <ul>
+                        <li>Solución web</li>
+                        <li>Solución movil</li>
+                    </ul>
+                    <p>
+                        Esta es una solución web y movil, la cual le permite a las instituciones 
+                        educativas asignar  y visualizar horarios educativos tanto para los estudiantes, 
+                        como para los docentes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="upScroll">
+            <a>^</a>
+        </div>
+    </section>
+
+    <footer class="ContentFooter">
+        <div class="footerTop">
+            <ul>
+                <li><h4><a href="#portafolioMenu">Proyectos</a></h4></li>
+                <li><a href="#portafolioMenu">UniAdmin</a></li>
+            </ul>
+
+            <ul>
+                <li><h4>Información</h4></li>
+                <li>
+                    <strong>Email:</strong> 
+                    Asin<strong class="ocultarCorreo">l</strong>Devs2<strong class="ocultarCorreo">/</strong>@gmail<strong class="ocultarCorreo">/</strong>.com
+                <li><strong>Bogota DC.</strong></li>
+            </ul>
+        </div>
+
+        <div class="footerBot">
+            <div class="divRedesSoci">
+                <a href="https://www.facebook.com/asin.devs.1/" target="_blank"><img class="imgFacebo" src="Images/Facebook.jpg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/asindevs/" target="_blank"><img class="imgInstag" src="Images/Instagram.PNG" alt="Instagram"></a>
+            </div>
+            <div class="divCopyRight">
+                <p>
+                    Copyright © 2020<br>All rights reserved
+                </p>
+                <img src="Images/Logo.svg" alt="Logo">
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        const vistas = ["Inicio", "SobreNosotros", "Caracteristicas", "Portafolio"];
+            
+        function cambioContenido(element){
+            vistas.forEach(function(e){
+                const spanSelecc_md_lg = document.getElementById(element + "_md_lg").getElementsByTagName('span')[0];
+                const spanSelecc_xs_sm = document.getElementById(element + "_xs_sm").getElementsByTagName('span')[0];
+                const spanAntiguo_md_lg = document.getElementById(e + "_md_lg").getElementsByTagName('span')[0];
+                const spanAntiguo_xs_sm = document.getElementById(e + "_xs_sm").getElementsByTagName('span')[0];
+                
+                if(element == e){
+                    spanAntiguo_md_lg.removeAttribute('class');
+                    spanAntiguo_xs_sm.removeAttribute('class');
+                    spanSelecc_md_lg.setAttribute('class', 'mantenerSpan-md-lg');
+                    spanSelecc_xs_sm.setAttribute('class', 'mantenerSpan-md-lg');
+                }else{
+                    spanAntiguo_md_lg.removeAttribute('class');
+                    spanAntiguo_xs_sm.removeAttribute('class');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

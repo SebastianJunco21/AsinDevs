@@ -1,0 +1,171 @@
+.divSobreNoso{
+    padding: 24px 0px;
+    background: var(--colorTerciario);
+}
+
+.divSobreNoso h2{
+    text-align: center;
+}
+
+.divPadreCuerpoFleha_Impar{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.divHijoCuerpoFleha_Impar{
+    width: 60%;
+    background:  var(--colorPrimario);
+    padding: 20px 20px 5px 38px;
+}
+
+.divHijoCuerpoFleha_Impar p{
+    text-align: justify;
+}
+
+.divHijoCuerpoFleha_Impar p strong{
+    font-size: 24px;
+}
+
+.flechaPuntaDerecha{
+    display: block;
+    border-color: transparent transparent transparent var(--colorPrimario);
+    border-style: solid;
+    border-width: 72px;
+}
+
+.divPadreCuerpoFleha_Par{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.divHijoCuerpoFleha_Par{
+    width: 60%;
+    background: var(--colorSecundario);
+    padding: 26px 20px 5px 38px;
+}
+
+.divHijoCuerpoFleha_Par p{
+    text-align: justify;
+}
+
+.divHijoCuerpoFleha_Par p strong{
+    font-size: 24px;
+}
+
+.flechaPuntaIzquierda{
+    display: block;
+    border-color: transparent var(--colorSecundario) transparent transparent;
+    border-style: solid;
+    border-width: 72px;
+}
+
+.imgDerecha img{
+    display: block;
+    position: relative;
+    right: 20%;
+    width: 141px;
+    z-index: -1;
+}
+
+.imgIzquierda img{
+    display: block;
+    position: relative;
+    left: 30%;
+    top: 4%;
+    width: 141px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1108px) {
+    .imgIzquierda img{
+        top: 10%;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .flechaPuntaDerecha{
+        border-width: 86px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .flechaPuntaIzquierda{
+        border-width: 86px;
+    }
+
+    .imgIzquierda img{
+        top: 23%;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .imgDerecha img{
+        position: relative;
+        right: 51px;
+        top: 18%;
+    }
+}
+
+@media screen and (max-width: 753px) {
+    .flechaPuntaIzquierda{
+        border-width: 98px;
+    }
+
+    .imgIzquierda img{
+        top: 28%;
+    }
+}
+
+@media screen and (max-width: 729px) {
+    .flechaPuntaDerecha{
+        border-width: 96px;
+    }
+
+    .imgDerecha img{
+        top: 29%;
+    }
+}
+
+@media screen and (max-width: 723px) {
+    .flechaPuntaIzquierda{
+        border-width: 96px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .flechaPuntaIzquierda{
+        border-width: 111px;
+    }
+
+    .imgIzquierda img{
+        top: 35%;
+    }
+}
+
+@media screen and (max-width: 701px) {
+    .divHijoCuerpoFleha_Impar{
+        width: 100%;
+    }
+
+    .divHijoCuerpoFleha_Par{
+        width: 100%;
+    }
+
+    .flechaPuntaDerecha{
+        display: none;
+    }
+
+    .flechaPuntaIzquierda{
+        display: none;
+    }
+
+    .imgDerecha img{
+        display: none;
+    }
+
+    .imgIzquierda img{
+        display: none;
+    }
+}

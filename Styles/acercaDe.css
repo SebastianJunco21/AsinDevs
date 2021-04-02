@@ -1,0 +1,63 @@
+.ContentFooter{
+    position: relative;
+}
+
+.footerTop{
+    display: flex;
+    justify-content: center;
+}
+
+.footerTop ul{
+    margin: 1px 30px 31px 30px;
+    text-align: center;
+}
+
+.footerTop li{
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.footerTop ul li h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerTop ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerBot{
+    background: var(--colorTerciario);
+}
+
+.imgFacebo{
+    width: 35px;
+    margin: 12px 22px 12px 35px;
+}
+
+.imgInstag{
+    width: 35px;
+    margin: 12px 22px 12px 10px;
+}
+
+.divCopyRight{
+    position: absolute;
+    display: inline-flex;
+    bottom: 6.5%;
+    right: 0%;
+    margin: 5px 10px;
+}
+
+.divCopyRight p{
+    margin: 0px 12px;
+    font-size: 10.4px;
+}
+
+.divCopyRight img{
+    width: 35px;
+}
+
+.ocultarCorreo{
+    color: white;
+}
