@@ -1,0 +1,18 @@
+.divCaracte{
+    padding: 24px 0px;
+}
+
+.divCaracte h2{
+    text-align: center;
+}
+
+.conteInfoCarac div{
+    text-align: justify;
+    margin: 36px 50px;
+    text-align-last: center;
+}
+
+.divImgCarac img{
+    width: 40px;
+    margin: 11px 8px;
+}

@@ -1,0 +1,90 @@
+.divInicio{
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+}
+
+.divInicio img{
+    width: 20em;
+    margin-right: 50px;
+}
+
+.divInicio div p{
+    font-size: 17px;
+}
+
+@media screen and (min-width: 800px) {
+    .divInicio{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divInicio img{
+        margin-bottom: 20px;
+        margin-right: 0px !important;
+    }
+}
+
+.divTextoInicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verMas{
+    margin-left: 21px;
+    background: var(--colorTerciario);
+    padding: 5px 14px;
+    border-radius: 18px;
+    cursor: pointer;
+    border: solid 1px var(--colorContraste);
+}
+
+#upScroll{
+    display: none;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 10%;
+    right: 10%;
+    text-align: center;
+    line-height: 1.1;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#upScroll a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 0.5px 31px 21px 1px;
+    font-size: 50px;
+    font-family: cursive;
+    background: rgba(51, 51, 51, 0.5);
+    text-decoration: none;
+    color: white;
+}
+
+.scrollMenuInicio{
+    position: relative;
+    top: -110px;
+}
+
+.scrollMenu{
+    position: relative;
+    top: -60px;
+}
+
+.linkMenu{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: var(--colorPrimario);
+}
+
+.linkMenu:hover{
+    color: var(--colorPrimario);
+    text-decoration: none;
+}
